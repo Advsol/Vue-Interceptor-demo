@@ -1,7 +1,8 @@
 // vue.config.js
+const location = require('./package.json').destinationLocation;
 module.exports = {
     // options...
-    outputDir:"C:/VSTS/master/Main10/imis.net/Packages/Platform/Asi.WebAppRoot/Areas/ng/src/app/iParts/donationEntry/",
+    outputDir:location,
     assetsDir: "./",
-    publicPath: "~/Areas/ng/src/app/iParts/donationEntry/"
+    publicPath: "~/iPartSource/axiossampleapp.zip/"
 }

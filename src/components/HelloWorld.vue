@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import asiAxios from 'axiospackage'
+import asiAxios from '@advsol/axios'
 export default {
   name: 'HelloWorld',
   props: { 
