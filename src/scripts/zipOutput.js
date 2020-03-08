@@ -1,12 +1,12 @@
 
 var fs = require('fs');
-var source = require('./../../package.json').destinationLocation;
-var packagename = require('./../../package.json').name ;
 const path = require('path');
-var destination = "C:/zip/";
+var destination = require('./../../package.json').zip_Destination;
+var source = require('./../../package.json').build_Destination;
+var packagename = require('./../../package.json').name ;
 var archiver = require('archiver');
-var dir = destination;
 
+var dir = destination;
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
