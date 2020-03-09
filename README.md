@@ -37,8 +37,10 @@ The "Fetch" method is tied to our button click, at which point it will make our 
 
 
 ## Installation
-When using the module in a new project run the following command to create a dependency. As this demo already has an entry for the module we can skip this command.
-  `npm i @advsol/axios`
+When using the module in a new project run the following command to create a dependency.
+`npm i @advsol/axios`
+(As this demo already has an entry for the module we can skip this command.)
+  
 
 ## Deploying 
 
