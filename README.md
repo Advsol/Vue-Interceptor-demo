@@ -5,6 +5,7 @@ Use this Vue SPA as a example of how to integrate the Axios module into your Jav
 ## Getting Started
 
 Clone or download the source files into your local directory that you can open in a preferred code editor (in this example VS Code was used).
+
 ![Root Folder Contents](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-ProjectRoot.png)
 
 ## Module in use
