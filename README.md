@@ -5,7 +5,7 @@ Use this Vue SPA as a example of how to integrate the Axios module into your Jav
 ## Getting Started
 
 Clone or download the source files into your local directory that you can open in a preferred code editor (in this example VS Code was used).
-
+![Root Folder Contents](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-ProjectRoot.png)
 
 ## Module in use
 
@@ -41,16 +41,15 @@ Install the dependencies through node.js syntax via terminal (verify that your w
     npm i
 
 You will notice that a "node_modules" folder has been added this is where the dependencies are located. 
-
-
 Now you will run the build script that is located in the "package.json" file by running the following command.
 
     npm run build
-    
+![enter image description here](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-Projectbuild_Output.png)
+
 This will build your Vue app to the specified configured location, furthermore it will also provide a zip file of the contents that are ready to be uploaded to IMIS.
 
-
-
+![App build output content](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-Build_Output_Location.png)
+![Zip file output cotent](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-Zip_Output_Location.png)
 ### Configuring the iPart in iMIS
 
 Do the following to configure the iPart in iMIS:
@@ -59,8 +58,8 @@ Do the following to configure the iPart in iMIS:
 -   Go to: **RiSE > Maintenance > Content types**.
 -   Click **New** > **Content-Type**.
 -   Select **Client-based (preferred)**.
--   Complete the required fields (Name, Description, and the first URL field). Use the URL to your iPart or the link to the sample iPart in the link above.
-
+-   Complete the required fields (Name, Description, and the first URL field). Use the URL to your iPart 
+![Content type definition](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-ContentType_Definition.png)
 
 
 -   Save the iPart/Content Type.
@@ -76,3 +75,5 @@ Create a piece of content in RiSE and add your iPart to that content:
     -   Click **Save & Publish**.
 
 After a short delay, your iPart navigation item and content are published. When you navigate to your new content, you will see an alert followed by the JSON returned by the API.
+
+![API JSON response](https://raw.githubusercontent.com/Advsol/Vue-Interceptor-demo/master/images/Vue-Demo-Implementation_Results.png)
