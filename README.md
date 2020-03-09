@@ -34,6 +34,11 @@ The "Fetch" method is tied to our button click, at which point it will make our 
 		}
 	}
 
+
+## Installation
+When using the module in a new project run the following command to create a dependency. As this demo already has an entry for the module we can skip this command.
+  npm i @advsol/axios
+
 ## Deploying 
 
 Install the dependencies through node.js syntax via terminal (verify that your working directory when running the command is the same location of the package.json)
